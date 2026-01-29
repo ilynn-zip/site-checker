@@ -64,6 +64,10 @@ button {
     cursor: pointer;
 }
 
+button:hover {
+    background: #63acfb;
+}
+
 .grid {
     display: flex;
     flex-direction: column;
@@ -178,4 +182,5 @@ footer {
     text-align: center;
     font-size: .8rem;
     color: var(--muted);
+
 }

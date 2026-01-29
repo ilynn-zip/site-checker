@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Site Checker</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>🌐 Site Checker</h1>
+      <div class="subtitle">Checking website accessibility</div>
+    </header>
+
+    <div class="card">
+      <div class="controls">
+        <input id="urlInput" placeholder="https://example.com" />
+        <button id="addBtn">Add</button>
+      </div>
+
+      <div id="grid" class="grid"></div>
+    </div>
+
+    <footer>
+      Checking every 10 seconds • fetch / no-cors
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
